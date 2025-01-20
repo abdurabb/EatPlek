@@ -189,7 +189,7 @@ function App() {
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="grid grid-cols-1 md:grid-cols-3 gap-12"
+            className="grid grid-cols-1 md:grid-cols-2 gap-12"
           >
             {[
               { icon: Clock, title: "No Waiting, Just Dining", desc: "Skip the wait for food preparation and enjoy your meal as soon as you're seated." },
